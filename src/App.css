@@ -1,9 +1,41 @@
-body{
+body {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
 }
 
-img {
+.logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo img {
   width: 60px;
+}
+
+.logo p {
+  color: #808080;
+}
+
+.navContainer {
+  height: 6.4rem;
+  background-color: rgb(28, 28, 28);
+}
+
+.navContainer:hover {
+  transition: 0.5s;
+  background-color: rgb(0, 0, 0);
+}
+
+.navContainer li a {
+  color: #fff;
+}
+
+.navContainer li a:hover {
+  color: #0a84ae;
+}
+
+.menuContainer {
+  background-color: #808080;
 }
