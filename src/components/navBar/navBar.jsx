@@ -1,23 +1,39 @@
-import logo from "../../assets/logo.png"
-const NavBar=()=>{
-    return(
-        <nav>
-            <div>
-                <img src={logo} alt="Logo da navbar" />
-            </div>
+import logo from "../../assets/logo.png";
+const NavBar = () => {
+  return (
+    <nav className="navbar">
+      <div>
+        <img src={logo} alt="Logo da navbar" />
+      </div>
 
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Projetos</a></li>
-                <li><a href="#">Sobre</a></li>
-                <li><a href="#">Contato</a></li>
-            </ul>
+      <ul className="nav nav-tabs">
+        <li className="nav-item">
+          <a className="nav-link" href="#">
+            Home
+          </a>
+        </li>
+        <li className="nav-item">
+          <a className="nav-link" href="#">
+            Projetos
+          </a>
+        </li>
+        <li className="nav-item">
+          <a className="nav-link" href="#">
+            Sobre
+          </a>
+        </li>
+        <li className="nav-item">
+          <a className="nav-link" href="#">
+            Contato
+          </a>
+        </li>
+      </ul>
+      <form>
+        <button>Login</button>
+        <button>Se Cadastre</button>
+      </form>
+    </nav>
+  );
+};
 
-            <button>Login</button>
-            <button>Se Cadastre</button>
-            
-        </nav>
-    )
-}
-
-export default NavBar
+export default NavBar;
