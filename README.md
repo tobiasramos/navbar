@@ -1,8 +1,19 @@
-# React + Vite
+# NavBar
+Navbar feita com o bootstrap e com o seu menu hambúrguer.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Instalação
+1. Clone o repositório: git clone https://github.com/tobiasramos/navbar.git
+2. Acesse o diretório do projeto: cd navbar
+3. Instale as dependências: npm install
 
-Currently, two official plugins are available:
+## Uso
+1. Execute o projeto localmente: npm run dev
+2. Abra o link que mostrar após a execução do projeto.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tecnologias utilizadas
+ - Vite
+ - REACTJS
+ - Bootstrap
+
+## Projeto em execução
+![tela](./tela.gif)

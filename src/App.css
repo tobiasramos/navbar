@@ -8,6 +8,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-right: 25%;
 }
 
 .logo img {
@@ -19,7 +20,7 @@ body {
 }
 
 .navContainer {
-  height: 6.4rem;
+  height: 7.5rem;
   background-color: rgb(28, 28, 28);
 }
 
