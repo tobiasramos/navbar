@@ -1,10 +1,10 @@
-import "../../App.css";
+import styles from "./navbar.module.css";
 import logo from "../../assets/logo.png";
 const NavBar = () => {
   return (
-    <nav className="navbar fixed-top navbar-expand-lg navContainer">
+    <nav className={`navbar fixed-top navbar-expand-lg ${styles.navContainer}`}>
       <div className="container-fluid">
-        <div className="logo ms-2">
+        <div className={`ms-2 ${styles.logo}`}>
           <img src={logo} alt="Logo da navbar" />
           <p>Free Code</p>
         </div>
@@ -50,7 +50,7 @@ const NavBar = () => {
                 >
                   Projetos
                 </a>
-                <ul className="dropdown-menu menuContainer">
+                <ul className={`dropdown-menu ${styles.menuContainer}`}>
                   <li>
                     <a className="dropdown-item" href="#">
                       Arco
@@ -87,7 +87,7 @@ const NavBar = () => {
                 </a>
               </li>
             </ul>
-            <form className="d-flex me-3">
+            <form className="d-flex me-3 my-2">
               <button className="btn btn-outline-light me-2">Login</button>
               <button className="btn btn-primary">Se Cadastrar</button>
             </form>
